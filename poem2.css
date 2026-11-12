@@ -1,0 +1,43 @@
+/* 1. 整頁背景設為粉黃色 */
+body {
+    background-color: #ffffcc; /* 粉黃色 */
+    text-align: center;
+    font-family: "微軟正黑體", sans-serif;
+    padding: 20px;
+}
+
+/* 2. 詩標題：紅色、36點字 */
+h1 {
+    color: red;
+    font-size: 36pt;
+    margin-bottom: 10px;
+}
+
+.author {
+    font-size: 18pt;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* 2. 詩內容：棕色、24點字 */
+.content {
+    color: brown;
+    font-size: 24pt;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+/* 3. 畫像圖：寬200px、深棕色圖框線3px、圓角20px */
+.portrait {
+    width: 200px;
+    border: 3px solid #5c4033; /* 深棕色 */
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 16pt;
+}
